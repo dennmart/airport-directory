@@ -5,7 +5,7 @@ export default function Airport({ airport }) {
   return (
     <div>
       <Head>
-        <title>Airport Directory</title>
+        <title>Airport Details - {airport.attributes.name}</title>
         <meta name="description" content="Airport Directory - Powered by Airport Gap" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
