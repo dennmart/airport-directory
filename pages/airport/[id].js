@@ -7,7 +7,10 @@ export default function Airport({ airport }) {
       <Head>
         <title>Airport Details - {airport.attributes.name}</title>
         <meta name="description" content="Airport Directory - Powered by Airport Gap" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
       <header className="bg-gradient-to-r from-green-500 to-green-600 border-b-2 border-green-700 py-8 md:py-16">
